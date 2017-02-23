@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Md Towhidul Absar Chowdhury - Software Engineer</title>
+    <description>My portfolio...</description>
+    <link>http://towhidabsar.github.io/</link>
+    <atom:link href="http://towhidabsar.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 14 Feb 2017 15:27:47 -0500</pubDate>
+    <lastBuildDate>Tue, 14 Feb 2017 15:27:47 -0500</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Implementation of Algorithms</title>
+        <description>&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Environment:
+1. C++
+2. Linux
+3. Vim
+4. g++/gdb
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;individual-project&quot;&gt;Individual Project&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/towhidabsar/algorithms&quot;&gt;Check it out on Github!&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;implemented-algorithms&quot;&gt;Implemented Algorithms:&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;HeapSort&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Thu, 02 Feb 2017 00:00:00 -0500</pubDate>
+        <link>http://towhidabsar.github.io/algorithms/</link>
+        <guid isPermaLink="true">http://towhidabsar.github.io/algorithms/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Twitter Miner</title>
+        <description>
+</description>
+        <pubDate>Tue, 13 Dec 2016 00:00:00 -0500</pubDate>
+        <link>http://towhidabsar.github.io/twitter-miner/</link>
+        <guid isPermaLink="true">http://towhidabsar.github.io/twitter-miner/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Architecture Tactics</title>
+        <description>&lt;h1 id=&quot;nuclear-reactor-simulator&quot;&gt;Nuclear Reactor Simulator&lt;/h1&gt; &lt;h2 id=&quot;description&quot;&gt;Description&lt;/h2&gt; &lt;blockquote&gt; &lt;p&gt;A simple simulator for a nuclear reactor control system to demonstrate some of the architectural quality attributes and tactics that can be used in a safety critical system. &lt;strong&gt;Frameworks used:&lt;/strong&gt;&lt;/p&gt; &lt;/blockquote&gt; &lt;blockquote&gt; &lt;ul&gt; &lt;li&gt;Python 2.7&lt;/li&gt; &lt;li&gt;Python &lt;em&gt;multiprocessing&lt;/em&gt; module&lt;/li&gt; &lt;/ul&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;instructions&quot;&gt;Instructions&lt;/h2&gt; &lt;blockquote&gt; &lt;p&gt;Python 2.7 is required. Run the following in the terminal: &lt;code class=&quot;highlighter-rouge&quot;&gt;python HBReceiver.py&lt;/code&gt;&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;design&quot;&gt;Design&lt;/h2&gt; &lt;p&gt;System consists of three main processes:&lt;/p&gt; &lt;ol&gt; &lt;li&gt;Reactor&lt;/li&gt; &lt;li&gt;HBReceiver&lt;/li&gt; &lt;li&gt;ControlSystem&lt;/li&gt; &lt;/ol&gt; &lt;blockquote&gt; &lt;p&gt;&lt;strong&gt;Reactor&lt;/strong&gt; Simulates the core reactor, generating random values for core temperature and safety valve status. If temperature goes too high or safety...</description>
+        <pubDate>Tue, 04 Oct 2016 00:00:00 -0400</pubDate>
+        <link>http://towhidabsar.github.io/architecture-tactics/</link>
+        <guid isPermaLink="true">http://towhidabsar.github.io/architecture-tactics/</guid>
+        
+        <category>architecture</category>
+        
+        <category>tactics</category>
+        
+        <category>python</category>
+        
+        <category>multiprocessing</category>
+        
+        
+        <category>Course projects</category>
+        
+      </item>
+    
+      <item>
+        <title>Usability Scripts</title>
+        <description>
+</description>
+        <pubDate>Sun, 17 Apr 2016 00:00:00 -0400</pubDate>
+        <link>http://towhidabsar.github.io/usability-scripts/</link>
+        <guid isPermaLink="true">http://towhidabsar.github.io/usability-scripts/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>RocReadar</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://www.se.rit.edu/~rockraiders/attachments/13666411/13666410.jpg&quot; alt=&quot;project poster&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 May 2015 00:00:00 -0400</pubDate>
+        <link>http://towhidabsar.github.io/rocreadar/</link>
+        <guid isPermaLink="true">http://towhidabsar.github.io/rocreadar/</guid>
+        
+        <category>computer vision</category>
+        
+        <category>android</category>
+        
+        <category>image processing</category>
+        
+        <category>mysql</category>
+        
+        <category>loopback</category>
+        
+        <category>nodejs</category>
+        
+        <category>angularjs</category>
+        
+        <category>google cloud</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Architecture Tactics</title>
+        <description>
+</description>
+        <pubDate>Tue, 12 May 2015 00:00:00 -0400</pubDate>
+        <link>http://towhidabsar.github.io/stock-management/</link>
+        <guid isPermaLink="true">http://towhidabsar.github.io/stock-management/</guid>
+        
+        <category>architecture</category>
+        
+        <category>tactics</category>
+        
+        <category>python</category>
+        
+        <category>multiprocessing</category>
+        
+        
+        <category>Course projects</category>
+        
+      </item>
+    
+      <item>
+        <title>ClickWars</title>
+        <description>&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Environment: 1. Swift 2. XCode &lt;/code&gt;&lt;/pre&gt; &lt;/div&gt; &lt;h1 id=&quot;rit-apple-ios-challenge-2015&quot;&gt;RIT Apple iOS Challenge 2015&lt;/h1&gt; &lt;blockquote&gt; &lt;p&gt;Feeling bored? Have a friend around? Play Click Wars and click on your friend’s face and brag about your reaction time!&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;app-features&quot;&gt;App Features&lt;/h2&gt; &lt;blockquote&gt; &lt;ol&gt; &lt;li&gt;Send invitation to a player nearby by clicking on connect&lt;/li&gt; &lt;li&gt;When the player has accepted the invitation, launch the weapon button&lt;/li&gt; &lt;li&gt;A camera would open up. Point the camera to the opponent. The camera will detect the opponent’s face&lt;/li&gt; &lt;li&gt;Click on the opponent’s five times, as fast you can!&lt;/li&gt; &lt;li&gt;Player who finishes clicking faster wins!&lt;/li&gt; &lt;/ol&gt; &lt;/blockquote&gt;...</description>
+        <pubDate>Sat, 07 Feb 2015 00:00:00 -0500</pubDate>
+        <link>http://towhidabsar.github.io/click-wars-ios/</link>
+        <guid isPermaLink="true">http://towhidabsar.github.io/click-wars-ios/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Multiply Madness</title>
+        <description>
+</description>
+        <pubDate>Fri, 04 Apr 2014 00:00:00 -0400</pubDate>
+        <link>http://towhidabsar.github.io/multiply-madness/</link>
+        <guid isPermaLink="true">http://towhidabsar.github.io/multiply-madness/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Fuzzer</title>
+        <description>
+</description>
+        <pubDate>Tue, 18 Mar 2014 00:00:00 -0400</pubDate>
+        <link>http://towhidabsar.github.io/fuzzer/</link>
+        <guid isPermaLink="true">http://towhidabsar.github.io/fuzzer/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
