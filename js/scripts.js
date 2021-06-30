@@ -214,39 +214,39 @@ $(document).ready(function () {
 
         $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
 
-        // $.post('https://script.google.com/macros/s/AKfycbymCCzMa18igJ7XxuWsrirYyJ94tSxScfw-g5OKMRgTnyhtDzYqoNzGVyfFifOtsXs_/exec', data)
-        //     .done(function (data) {
-        //         console.log(data);
-        //         if (data.result === "error") {
-        //             $('#alert-wrapper').html(alert_markup('danger', data.message));
-        //         } else {
-        //             $('#alert-wrapper').html('');
-        //             $('#rsvp-modal').modal('show');
-        //         }
-        //     })
-        //     .fail(function (data) {
-        //         console.log(data);
-        //         $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> There is some issue with the server. '));
-        //     });
-        $.ajax({
-            url: 'https://script.google.com/macros/s/AKfycbymCCzMa18igJ7XxuWsrirYyJ94tSxScfw-g5OKMRgTnyhtDzYqoNzGVyfFifOtsXs_/exec',
-            method: "POST",
-            dataType: "json",
-            data: data,
-            success: function(response) {
-                console.log(response);
-                if (response.result === "error") {
-                    $('#alert-wrapper').html(alert_markup('danger', response.message));
+        $.post('https://script.google.com/macros/s/AKfycbymCCzMa18igJ7XxuWsrirYyJ94tSxScfw-g5OKMRgTnyhtDzYqoNzGVyfFifOtsXs_/exec', data)
+            .done(function (data) {
+                console.log(data);
+                if (data.result === "error") {
+                    $('#alert-wrapper').html(alert_markup('danger', data.message));
                 } else {
                     $('#alert-wrapper').html('');
                     $('#rsvp-modal').modal('show');
                 }
-            },
-            error: function(response) {
-                console.log(response);
+            })
+            .fail(function (data) {
+                console.log(data);
                 $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> There is some issue with the server. '));
-            }
-        })
+            });
+        // $.ajax({
+        //     url: 'https://script.google.com/macros/s/AKfycbymCCzMa18igJ7XxuWsrirYyJ94tSxScfw-g5OKMRgTnyhtDzYqoNzGVyfFifOtsXs_/exec',
+        //     method: "POST",
+        //     dataType: "json",
+        //     data: data,
+        //     success: function(response) {
+        //         console.log(response);
+        //         if (response.result === "error") {
+        //             $('#alert-wrapper').html(alert_markup('danger', response.message));
+        //         } else {
+        //             $('#alert-wrapper').html('');
+        //             $('#rsvp-modal').modal('show');
+        //         }
+        //     },
+        //     error: function(response) {
+        //         console.log(response);
+        //         $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> There is some issue with the server. '));
+        //     }
+        // })
     });
 
 });
