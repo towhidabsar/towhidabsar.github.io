@@ -251,13 +251,14 @@ Navigation
 Hero
 ========================================================================== */
 .hero {
-  min-height: 750px;
-  background: url('../img/WELCOME.png') center center;
+  // min-height: 1000px;
+  // background: url('../img/bier_card.png') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   position: relative;
+  margin-right: -2px;
 
   /*.rsvp-btn {
     position: absolute;
@@ -751,7 +752,7 @@ Google map
 ========================================================================== */
 #map-canvas {
   height: 500px;
-  width: 100%;
+  width: 50%;
 }
 #map-content-wrapper {
   position: relative;
