@@ -4,31 +4,33 @@ $(document).ready(function () {
         e.preventDefault();
 
         var data = $(this.form).serialize();
-        console.log(data);
-        $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
+        
 
         if ($('#invite_code').val() !== '0731') {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
         }
-        if ($("input[name='email']").val() !== "") {
-            $.post('https://script.google.com/macros/s/AKfycbymCCzMa18igJ7XxuWsrirYyJ94tSxScfw-g5OKMRgTnyhtDzYqoNzGVyfFifOtsXs_/exec', data)
-                .done(function (data) {
-                    console.log(data);
-                    if (data.result === "error") {
-                        $('#alert-wrapper').html(alert_markup('danger', data.message));
-                    } else {
-                        $('#alert-wrapper').html('');
-                        $('#rsvp-modal').modal('show');
-                    }
-                })
-                .fail(function (data) {
-                    console.log(data);
-                    $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> There is some issue with the server. '));
-                });
-        }
         else {
-            $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> You must enter email address!'));
-        }
+            if ($("input[name='email']").val() !== "") {
+                $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
+                $.post('https://script.google.com/macros/s/AKfycbymCCzMa18igJ7XxuWsrirYyJ94tSxScfw-g5OKMRgTnyhtDzYqoNzGVyfFifOtsXs_/exec', data)
+                    .done(function (data) {
+                        console.log(data);
+                        if (data.result === "error") {
+                            $('#alert-wrapper').html(alert_markup('danger', data.message));
+                        } else {
+                            $('#alert-wrapper').html('');
+                            $('#rsvp-modal').modal('show');
+                        }
+                    })
+                    .fail(function (data) {
+                        console.log(data);
+                        $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> There is some issue with the server. '));
+                    });
+            }
+            else {
+                $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> You must enter email address!'));
+            }
+        } 
     });
     /***************** Waypoints ******************/
 
