@@ -10,7 +10,7 @@ $(document).ready(function () {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
         }
         else {
-            if ($("input[name='email']").val() !== "") {
+            if ($("input[name='email']").val() !== "" && $("input[name='name']").val() !== "") {
                 $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
                 $.post('https://script.google.com/macros/s/AKfycbymCCzMa18igJ7XxuWsrirYyJ94tSxScfw-g5OKMRgTnyhtDzYqoNzGVyfFifOtsXs_/exec', data)
                     .done(function (data) {
