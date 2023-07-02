@@ -2,9 +2,11 @@
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    "./node_modules/flowbite-react/**/*.js",
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  darkMode: 'media',
   theme: {
     extend: {
       backgroundImage: {
@@ -14,5 +16,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require("flowbite/plugin")
+  ],
 }
