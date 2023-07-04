@@ -2,18 +2,18 @@
 export const cascade_menus = [
     {
         "name": "About Me",
-        "description": "itsa me towhid",
+        "description": "me, myself, and I",
         "imageSrc": "/about.svg",
         "imageAlt": "",
         "href": "about",
         "active": true
     },
     {
-        "name": "Resume",
-        "description": "the shenanigans",
+        "name": "Work",
+        "description": "all the works",
         "imageSrc": "/resume.svg",
         "imageAlt": "",
-        "href": "resume",
+        "href": "work",
         "active": true
     },
     {
@@ -26,7 +26,7 @@ export const cascade_menus = [
     },
     {
         "name": "Research",
-        "description": "",
+        "description": "publications and the likes",
         "imageSrc": "/research.svg",
         "imageAlt": "",
         "href": "research",

@@ -1,12 +1,11 @@
 'use client';
 
 import { Avatar, Card, DarkThemeToggle, Flowbite } from 'flowbite-react';
+import CustomNavbar from '../components/navbar';
 
-export default function About() {
+export default function Projects() {
 
     return (
-        <Flowbite>
-        <DarkThemeToggle/>
         <div className="space-y-2">
             <Avatar img="/towhid.webp" size="xl"/>
         <Card className="object-fill md:h-auto">
@@ -21,7 +20,6 @@ export default function About() {
             </p>
         </Card>
         </div>
-        </Flowbite>
     )
 }
 

@@ -4,8 +4,8 @@ import { DarkThemeToggle, Flowbite } from 'flowbite-react';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Towhid',
-  description: 'Lorem ipsum dolor amet',
+  title: "Towhid",
+  description: 'A simple portfolio because ... why not?',
 }
 
 export default function RootLayout({
@@ -14,8 +14,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className='dark'>
-      <body className={`${inter.className} bg-slate-50 dark:bg-slate-800 text-slate-800 dark:text-slate-100 container mx-auto p-4`}>{children}</body>
+    <html lang="en">
+      <body className={`${inter.className} bg-slate-50 dark:bg-slate-800 text-slate-800 dark:text-slate-100 container mx-auto p-4`}>
+        {children}
+      </body>
     </html>
   )
 }
