@@ -13,10 +13,16 @@ export default function About() {
             About Me
         </h5>
         <p className="font-normal text-gray-700 dark:text-gray-400">
-            As a graduate student studying at the intersection of AI and Software Engineering, I have always been particularly drawn to the proverb - "Give a man a fish you feed him for a day, teach a man how to fish you feed him for a lifetime."
-
-            Self-sustainability is a key tenet of software engineering that became my passion as I gained experience as a software engineer from my undergraduate education and experience working in the industry. This passion has led me on my journey to transition from software engineering to working on my Ph.D. in the field of AI for Social Good, as I study challenges toward democratizing the rapidly developing strengths of large language models for societal benefits.
-            My work on enabling software engineering to make AI easy to use for local communities further accentuated my belief that as the theoretical foundations of AI are being pushed, we must not forget the social good applications of this state-of-the-art technology. 
+            I am a software architecture enthusiast; I enjoy optimizing the design of even the simplest of systems to reduce redundancies and enable proper separation of concerns; and hyperfocused on reusability. Now, I am bringing that enthusiasm to large language models and computational social science.  
+            <br></br>
+            <br></br>
+            A perennial student at the crossroads of machine learning and software engineering, I have always been particularly drawn to self-sustainability as a key tenet of software engineering.
+            I experienced life as a software engineer starting from my BS/MS at the Rochester Institute of Technology followed by working as a Full-Stack Developer when I transitioned to working on my Ph.D. in Natural Language Processing for Social Good. 
+            <br></br>
+            <br></br>
+            Now, I study challenges toward democratizing the rapidly developing strengths of large language models and bridging the technical gap for societal benefits. My work on enabling software engineering to make AI easy to use for local communities further accentuated my belief that as the theoretical foundations of AI are being pushed, we must not forget the social good applications of this state-of-the-art technology.
+            <br></br>
+            <br></br>
         </p>
         </Card>
         </div>
