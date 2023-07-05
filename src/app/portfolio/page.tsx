@@ -24,7 +24,7 @@ export default async function Home() {
             />
           </div>
           <h3 className="mt-6 text-base text-center">
-            <a href={menu.href}>
+            <a href={`/portfolio/${menu.href}`}>
               <span className="absolute inset-0" />
               {menu.name}
             </a>

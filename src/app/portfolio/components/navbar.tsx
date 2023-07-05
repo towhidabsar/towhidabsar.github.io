@@ -33,7 +33,7 @@ export default function CustomNavbar() {
           </p>
         </Navbar.Link>
         {data.map((menu) => 
-          <Navbar.Link href={`${menu.href}`} key={menu.href}>
+          <Navbar.Link href={`/portfolio/${menu.href}`} key={menu.href}>
             {menu.name}
           </Navbar.Link>
         )}
