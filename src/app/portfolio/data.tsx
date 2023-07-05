@@ -8,14 +8,14 @@ export const cascade_menus = [
         "href": "about",
         "active": true
     },
-    {
-        "name": "Work",
-        "description": "all the works",
-        "imageSrc": "/resume.svg",
-        "imageAlt": "",
-        "href": "work",
-        "active": true
-    },
+    // {
+    //     "name": "Work",
+    //     "description": "all the works",
+    //     "imageSrc": "/resume.svg",
+    //     "imageAlt": "",
+    //     "href": "work",
+    //     "active": true
+    // },
     {
         "name": "Projects",
         "description": "personal, highlights, github stuff",
